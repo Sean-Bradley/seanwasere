@@ -28,7 +28,7 @@ Supplemental information for my seanwasere youtube tutorials and other blogs
 
 ## [Blank QR Code](blank-qr-code/)
 
-## [Seanâ€™s Panasonic MX-70 API](seans-panasonic-mx-70-api/)
+## [Sean's Panasonic MX-70 API](seans-panasonic-mx-70-api/)
 
 ## [FFMPEG Common Tasks](ffmpeg-common-tasks/)
 
