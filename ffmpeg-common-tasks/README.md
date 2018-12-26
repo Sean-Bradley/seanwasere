@@ -10,6 +10,11 @@ Note that the %d in your output segments are replaced by a sequence number.
 
 `ffmpeg -i input.flv -codec copy output.mp4`
 
+## Convert IPhone Lavf to H.264
+So you can view iphone mov on windows 10 without needing to install HEVC video extensions.
+
+`ffmpeg -i input.mov -vcodec libx264 output.mp4`
+
 ## Adjust audio levels in video
 
 Set to DB
