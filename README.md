@@ -41,3 +41,5 @@ Supplemental information for my seanwasere youtube tutorials and other blogs
 "Antipodean Ant"
 
 CCMMO - Community Curated Massively Multiplayer Online
+
+[HomeIdea3D](http://homeidea3d.com)
