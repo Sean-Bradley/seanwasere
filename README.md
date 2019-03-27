@@ -2,6 +2,8 @@
 
 Supplemental information for my seanwasere youtube tutorials and other blogs
 
+## [Print All Pylint Warning and Error Codes](pylint--list-msgs/)
+
 ## [Belkin N300 Wi-Fi Range Extender](belkin-n300-wifi-extender/)
 
 ## [NETGEAR AC750 Wi-Fi Range Extender](netgear-ac750-wifi-extender/)
