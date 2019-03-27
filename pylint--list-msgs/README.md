@@ -1,5 +1,15 @@
 # Print All Pylint Warning Codes
 
+## Pylint Warning Prefixes
+
+- [R]efactor - Refactoring Suggestion
+- [C]onvention - Codeing Convention
+- [W]arning - Syle Warnings or other
+- [E]rror - Import Error, or other detected bug
+- [F]atal - Fatal Error. Processing has terminated
+
+## Pylint Message Codes
+
 ```bash
 $ python -m pylint --list-msgs
 :blacklisted-name (C0102): *Black listed name "%s"*
