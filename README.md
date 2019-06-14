@@ -2,6 +2,8 @@
 
 Supplemental information for my seanwasere youtube tutorials and other blogs
 
+## [Stainless Steel Linear Shower Drain](stainless-steel-linear-shower-drain/)
+
 ## [Print All Pylint Warning and Error Codes](pylint--list-msgs/)
 
 ## [Belkin N300 Wi-Fi Range Extender](belkin-n300-wifi-extender/)
