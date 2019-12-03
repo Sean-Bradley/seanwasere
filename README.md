@@ -2,7 +2,7 @@
 
 Supplemental information for my seanwasere youtube tutorials and other blogs
 
-## [Genrand](genrand/)
+## [Genrand](generate-random-hex/)
 
 ## [Stainless Steel Linear Shower Drain](stainless-steel-linear-shower-drain/)
 

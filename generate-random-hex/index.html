@@ -32,8 +32,51 @@
                 key = key + Math.floor(Math.random() * 256).toString(16).lpad('0', 2);
             }
             document.getElementById("result").innerHTML = key;
+            document.getElementById("result").style = "animation:highlight-pre 1s";
         }
     </script>
+    <style>
+        button {
+            font-size: 1.5rem;
+            padding: .5rem 1rem;
+            border-width: 0;
+            border-radius: .25rem;
+            background-color: #1195ce;
+            color: white;
+            cursor: pointer;
+            transition: all .25s;
+        }
+
+        pre {
+            min-width: 512px;
+            display: block;
+            padding: 20px;
+            margin: 10px 0 10px;
+            font-size: 17px;
+            line-height: 1.4285;
+            word-break: break-all;
+            word-wrap: break-word;
+            color: #333333;
+            background-color: #f8f8f8;
+            border-width: 1px 0;
+            border-style: solid;
+            border-color: #e4e4e4;
+        }
+
+        @keyframes highlight-pre {
+            0% {
+                background: #00ffaa
+            }
+
+            100% {
+                background: #f8f8f8;
+            }
+        }
+
+        .run-highlight-pre {
+            animation: highlight-pre .5s;
+        }
+    </style>
 </head>
 
 <body>
@@ -42,8 +85,12 @@
         <h2 class="project-tagline">Generate Random 256 bit Hex</h2>
     </section>
     <section class="main-content">
-        <div><span id="result"></span></div>
-        <button onclick="genrand()">Regenerate</button>
+        <div>
+            <pre id="result"></pre>
+        </div>
+        <div>
+            <button onclick="genrand()">Regenerate</button>
+        </div>
         <footer class="site-footer">
             <span class="site-footer-owner">
                 <a href="https://seanwasere.com">seanwasere.com</a> sourecode is available from
