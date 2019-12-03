@@ -33,6 +33,9 @@
             }
             document.getElementById("result").innerHTML = key;
             document.getElementById("result").style = "animation:highlight-pre 1s";
+            setTimeout(() => {
+                document.getElementById("result").style = "animation:none";
+            }, 1000)
         }
     </script>
     <style>
@@ -52,7 +55,7 @@
             display: block;
             padding: 20px;
             margin: 10px 0 10px;
-            font-size: 17px;
+            font-size: 2rem;
             line-height: 1.4285;
             word-break: break-all;
             word-wrap: break-word;
