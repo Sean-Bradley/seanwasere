@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <title>seanwasere.com: genrand</title>
+    <meta name="description" content="genrand">
+    <link href="https://seanwasere.com/" rel="canonical">
+    <meta content="seanwasere" property="og:site_name">
+    <script type="application/ld+json">
+        {
+            "name": "seanwasere",
+            "description": "genrand",
+            "@type": "WebSite",
+            "url": "https://seanwasere.com/",
+            "headline": "seanwasere",
+            "@context": "http://schema.org"
+        }
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <link href="/assets/css/style.css?v=180fb55f4c7b08471bbb25fb13d4ebe58ed0f717" rel="stylesheet">
+    <script language="javascript">
+        String.prototype.lpad = function (padString, length) {
+            var str = this;
+            while (str.length < length)
+                str = padString + str;
+            return str;
+        }
+
+        function genrand() {
+            var key = "";
+            for (var i = 0; i < 32; i++) {
+                key = key + Math.floor(Math.random() * 256).toString(16).lpad('0', 2);
+            }
+            document.getElementById("result").innerHTML = key;
+        }
+    </script>
+</head>
+
+<body>
+    <section class="page-header">
+        <h1 class="project-name">seanwasere</h1>
+        <h2 class="project-tagline">Generate Random 256 bit Hex</h2>
+    </section>
+    <section class="main-content">
+        <div><span id="result"></span></div>
+        <button onclick="genrand()">Regenerate</button>
+        <footer class="site-footer">
+            <span class="site-footer-owner">
+                <a href="https://seanwasere.com">seanwasere.com</a> sourecode is available from
+                <a href="https://github.com/Sean-Bradley/seanwasere">github</a>
+        </footer>
+    </section>
+    <script language="javascript">
+        genrand();
+    </script>
+</body>
+
+</html>
