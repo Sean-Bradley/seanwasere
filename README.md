@@ -48,4 +48,4 @@ Supplemental information for my seanwasere youtube tutorials and other blogs
 
 CCMMO - Community Curated Massively Multiplayer Online
 
-[HomeIdea3D](http://homeidea3d.com)
+[HomeIdea3D](http://homeidea3d.seanwasere.com)
